@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantone Moda Paleti Tahmini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎨 Moda Trendi Renk Paleti Tahmini</h1>
+        <p>Son beş yılın kategori bazlı (Kadın/Erkek/Çocuk) moda renklerini analiz ederek bir sonraki yılın 3 trend tonunu tahmin ediyoruz.</p>
+    </header>
+
+    <main>
+        <section id="category-selectors">
+            <h2>Kategori Seçimi</h2>
+            <div id="button-container">
+                <button class="category-button" id="btn-kadın">👠 Kadın Giyim</button>
+                <button class="category-button" id="btn-erkek">👔 Erkek Giyim</button>
+                <button class="category-button" id="btn-çocuk">🧸 Çocuk Giyim</button>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="prediction">
+            <h2 id="palette-title">Tahmini Palet Sonuçları</h2>
+            <p>Geçmiş 5 yılın renk trendlerinin HSL ortalamasına en yakın 3 trend rengi önerilmiştir.</p>
+            
+            <div id="palette-grid">
+                </div>
+        </section>
+
+        <hr>
+
+        <section id="past-colors">
+            <h2>Geçmiş Moda Paletleri (2021-2025)</h2>
+            <p>Toplam 105 renk incelenmektedir. (Yıl x Kategori x 7 Renk)</p>
+            <div id="color-list">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Moda Trendi Tahmin Projesi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
